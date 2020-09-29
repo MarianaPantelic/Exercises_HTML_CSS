@@ -18,3 +18,15 @@ ol li {
   color: grey;
   font-style: italic;
 }
+.ul-1 {
+  list-style-type: circle;
+}
+.ul-2 {
+  list-style-type: square;
+}
+.ol-1 {
+  list-style-type: lower-greek;
+}
+.ol-2 {
+  list-style-type: upper-roman;
+}
