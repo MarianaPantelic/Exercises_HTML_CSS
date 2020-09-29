@@ -1,0 +1,20 @@
+* {
+  background-color: pink;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  color: red;
+  font-size: 30px;
+}
+li {
+  font-size: 20px;
+}
+ul li {
+  color: darkred;
+}
+ol li {
+  color: grey;
+  font-style: italic;
+}
