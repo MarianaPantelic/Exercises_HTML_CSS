@@ -1,0 +1,23 @@
+section {
+  background-color: pink;
+  width: 80vw;
+  height: 100vh;
+}
+p {
+  font-size: 25px;
+  width: 60%;
+}
+span {
+  font-size: 2em;
+}
+h2 {
+  font-size: 2cm;
+}
+div {
+  background-color: lightcoral;
+  width: 90vmax;
+  height: 20vmax;
+}
+.span-1 {
+  font-size: 5ch;
+}
