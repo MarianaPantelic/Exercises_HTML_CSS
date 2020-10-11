@@ -87,3 +87,6 @@ p {
   background-color: hsl(240, 80%, 27%);
   height: 30%;
 }
+a:visited {
+  color: white;
+}
