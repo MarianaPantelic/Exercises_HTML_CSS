@@ -1,0 +1,73 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+h1 {
+  margin: 0px 0px -15px 450px;
+}
+.circle {
+  border-radius: 50%;
+}
+.profile-img {
+  margin: 20px 80px 100px 500px;
+}
+.border {
+  border: solid 3px magenta;
+}
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.float-l {
+  float: left;
+}
+.font {
+  font-size: 20px;
+}
+.margin-1 {
+  margin-right: 30px;
+}
+.padding-1 {
+  padding: 6px 6px 6px 6px;
+}
+p {
+  font-size: 20px;
+}
+.img-fit {
+  object-fit: none;
+}
+.stories-img-1 {
+  margin: 30px 100px 0px 550px;
+}
+.stories-title {
+  margin: 0px 230px 0px 600px;
+}
+#stories a img:hover {
+  border: solid 3px black;
+  width: 200px;
+  height: 200px;
+}
+.img-fit-1 {
+  object-fit: cover;
+}
+.margin-2 {
+  margin: 50px 0px 0px 350px;
+}
+.margin-3 {
+  margin-left: 20px;
+}
+.opacity {
+  opacity: 0.7;
+}
+#full-opacity img:hover {
+  opacity: 1;
+}
+.img-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+}
