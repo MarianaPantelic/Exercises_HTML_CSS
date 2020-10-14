@@ -18,7 +18,7 @@ h1 {
 }
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 .float-l {
   float: left;
@@ -70,4 +70,10 @@ p {
   align-items: center;
   flex-direction: column;
   margin-top: 200px;
+}
+.top {
+  margin: 0px 0px -15px 450px;
+}
+input {
+  margin-left: 200px;
 }
