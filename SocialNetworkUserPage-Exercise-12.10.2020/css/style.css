@@ -4,9 +4,7 @@ body {
   height: 100%;
   top: 0;
 }
-h1 {
-  margin: 0px 0px -15px 450px;
-}
+
 .circle {
   border-radius: 50%;
 }
@@ -91,4 +89,23 @@ input {
 }
 .text-bg {
   display: table;
+}
+.stories-username {
+  margin: 0px 170px 0px 580px;
+}
+.img-fit-2 {
+  object-fit: unset;
+}
+.bg-img {
+  background-image: url(/img/uros2.jpeg);
+  background-size: auto;
+}
+.container {
+  width: 600px;
+  height: 800px;
+  color: white;
+  background-color: black;
+
+  padding: 0px 50px 0px 50px;
+  margin-top: -300px;
 }
