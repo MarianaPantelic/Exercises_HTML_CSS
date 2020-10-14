@@ -77,3 +77,18 @@ p {
 input {
   margin-left: 200px;
 }
+.bg-primary {
+  background-color: blue;
+}
+.text-primary {
+  color: blue;
+}
+.text-secondary {
+  color: cyan;
+}
+.bg-secondary {
+  background-color: cyan;
+}
+.text-bg {
+  display: table;
+}
