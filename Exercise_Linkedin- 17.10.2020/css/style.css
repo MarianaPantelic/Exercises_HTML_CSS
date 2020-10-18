@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(0, 0, 0, 0.09);
+}
 header {
   background-color: #283e4a;
   height: 60px;
@@ -29,8 +32,8 @@ header {
   color: white;
 }
 .border-1 {
-  border: groove 2px lightgrey;
-  border-radius: 3%;
+  border: outset 2px lightgrey;
+  border-radius: 1%;
 }
 .container-1 {
   width: 200px;
@@ -131,7 +134,7 @@ header {
 .container-5 {
   width: 600px;
   height: 550px;
-  margin-top: 20px;
+  margin: 20px 0px 20px 0px;
 }
 .circle {
   border-radius: 50%;
@@ -162,4 +165,24 @@ header {
 }
 .margin-7 {
   margin-top: 20px;
+}
+.center {
+  margin-left: 500px;
+}
+.container-6 {
+  width: 600px;
+  height: 550px;
+}
+.container-6-1 {
+  height: 25px;
+  padding: 10px 0px 10px 20px;
+}
+.margin-8 {
+  margin-left: 380px;
+}
+.container-6-2 {
+  padding: 10px 20px 20px 30px;
+}
+.margin-9 {
+  margin-left: 470px;
 }
