@@ -69,7 +69,7 @@ header {
   margin-left: 70px;
 }
 .font-2 {
-  color: grey;
+  color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
 }
 .font-3 {
@@ -106,7 +106,7 @@ header {
 }
 .container-3-1 {
   height: 40px;
-  color: darkgrey;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
   font-weight: bold;
   padding: 10px 0px 10px 30px;
@@ -151,7 +151,7 @@ header {
   margin: 10px 0px 0px 120px;
 }
 .grey {
-  color: darkgrey;
+  color: rgba(0, 0, 0, 0.6);
 }
 .flex-2 {
   display: flex;
@@ -194,4 +194,10 @@ header {
 }
 .color-4 {
   color: #0073b1;
+}
+.margin-11 {
+  margin-left: 340px;
+}
+.container-8 {
+  height: 840px;
 }
