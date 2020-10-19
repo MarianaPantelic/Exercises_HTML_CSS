@@ -226,3 +226,16 @@ header {
 .margin-14 {
   margin-left: 50px;
 }
+section:hover {
+  background-color: rgba(0, 0, 0, 0.529);
+}
+section:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.289);
+}
+
+a:visited {
+  color: #0073b1;
+}
+a:hover {
+  color: #283e4a;
+}
