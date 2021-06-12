@@ -1,4 +1,4 @@
-![Result}(../img/LinkedIn.png)
+![Result](./img/LinkedIn.png)
 
 Exercise: create a news feed (e.g: like linkedin)
 
