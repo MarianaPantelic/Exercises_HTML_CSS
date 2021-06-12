@@ -1,3 +1,5 @@
+![Result](./img/instagram.png)
+
 Extra-Exercise: Social Network User Page
 Recreate a User Page similar to Instagram. E.g: https://images.ctfassets.net/pt9zoi1ijm0e/jEVniQHW7wHNvTQl3LRGw/180e975d4b641390fcfdf946e1f4afa2/Instagram_Profile_Homepage_Screenshot.png
 It doesn't necessarily have to be the same layout and position of elements. Just make sure to include:
