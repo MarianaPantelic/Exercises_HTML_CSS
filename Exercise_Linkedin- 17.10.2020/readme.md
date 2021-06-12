@@ -1,3 +1,5 @@
+## LinkedIn Page created using only CSS Flexbox
+
 ![Result](./img/LinkedIn.png)
 
 Exercise: create a news feed (e.g: like linkedin)
