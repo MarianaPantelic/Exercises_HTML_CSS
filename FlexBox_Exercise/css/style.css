@@ -1,0 +1,114 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.list-font {
+  font-size: 22px;
+}
+p,
+a {
+  font-size: 22px;
+  text-align: center;
+}
+.color-1 {
+  background-color: pink;
+}
+.color-2 {
+  background-color: rosybrown;
+}
+.color-3 {
+  background-color: lightcoral;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-container {
+  width: 1600px;
+  height: 700px;
+}
+.container-2 {
+  width: 550px;
+  height: 550px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+.container-3 {
+  width: 850px;
+  height: 550px;
+  margin-right: 50px;
+}
+.container-4 {
+  width: 320px;
+  height: 450px;
+}
+.border {
+  border: 10px ridge magenta;
+}
+.circle {
+  border-radius: 50%;
+}
+.block {
+  display: block;
+}
+.body-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.meme {
+  width: 200px;
+  height: 200px;
+}
+.meme1 {
+  background-image: url("../img/webdev.gif");
+  background-position: center;
+  background-size: cover;
+}
+.meme2 {
+  background-image: url("../img/developers-team.gif");
+  background-position: center;
+  background-size: cover;
+}
+.meme3 {
+  background-image: url("../img/wp3284833.gif");
+  background-position: center;
+  background-size: cover;
+}
+.meme4 {
+  background-image: url("../img/webdev1.gif");
+  background-position: center;
+  background-size: cover;
+}
+.meme5 {
+  width: 250px;
+  height: 150px;
+  background-image: url("../img/webdev2.gif");
+  background-position: center;
+  background-size: cover;
+}
+.meme6 {
+  width: 250px;
+  height: 90px;
+}
+.meme7 {
+  width: 250px;
+  height: 90px;
+}
