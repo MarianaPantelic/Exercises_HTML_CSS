@@ -1,3 +1,5 @@
+![Result}(./img/LinkedIn.png)
+
 Exercise: create a news feed (e.g: like linkedin)
 
 We will only focus on the column in the middle (the posts, e.g: https://i.insider.com/587ffc61ee14b62b008b8c91?width=1100&format=jpeg&auto=webp)
