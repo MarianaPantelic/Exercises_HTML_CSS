@@ -1,4 +1,4 @@
-![Result](./img/result.png)
+![Result](./images/result.png)
 
 # Basic Data Exercises
 
@@ -10,4 +10,4 @@
 2.  Look at the mockup image. Create a form and style it like the mockup.
 3.  Use the provided images in the img folder.
 
-![mockup-image](/images/reference-image.png)
+![mockup-image](./images/reference-image.png)
