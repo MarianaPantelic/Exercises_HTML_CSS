@@ -1,3 +1,5 @@
+![Result](./img/result.png)
+
 # Basic Data Exercises
 
 ## Styling Forms
