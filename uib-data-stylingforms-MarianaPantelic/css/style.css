@@ -1,0 +1,76 @@
+:root {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  width: 100%;
+  color: rgb(48, 44, 44);
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(48, 44, 44);
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: rgb(95, 86, 86);
+}
+
+.logo {
+  max-width: 50rem;
+  margin: auto;
+}
+.intro {
+  width: 60rem;
+  height: 18rem;
+  background-color: rgba(255, 255, 255, 0.576);
+  border: solid 1rem black;
+  margin: 3% auto;
+  padding: 0 2rem 1rem 2rem;
+}
+.reservation {
+  width: 62rem;
+  height: 40rem;
+  background-color: rgba(255, 255, 255, 0.707);
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+.reservation label {
+  background-color: rgba(0, 0, 0, 0.755);
+  color: white;
+  display: block;
+  margin: 1% auto;
+  text-align: left;
+  font-size: 1.6rem;
+  width: 40%;
+  padding: 0.5rem;
+}
+.reservation input {
+  background-color: white;
+  width: 40%;
+  padding: 0.5rem;
+}
+button {
+  background-color: rgba(0, 0, 0, 0.755);
+  color: white;
+  font-style: italic;
+  width: 42%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+footer {
+  font-size: 1.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.556);
+  padding: 3rem;
+}
