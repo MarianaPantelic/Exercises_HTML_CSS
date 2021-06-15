@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Forms Inputs</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="POST/submit-information" method="POST">
+            <fieldset>
+                <legend>Car Insurance</legend>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" maxlength="30" placeholder="John" required>
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" maxlength="50" placeholder="Smith" required>
+                </div>
+                <div>
+                    <label for="insurance-type">Insurance Type</label>
+                    <input type="text" name="insurance-type" id="insurance-type" value="Insurance type 1" readonly>
+                </div>
+                <div>
+                    <label for="user-picture">User Picture</label>
+                    <input type="file" name="user-picture" id="user-picture" accept="image/*">
+                </div>
+                    <p>Address<p>
+                    <div>
+                        <label for="street">Street</label>
+                        <input type="text" name="street" id="street" maxlength="150" placeholder="Street Name" required>
+                    </div>
+                    <div>
+                        <label for="house-number">House Number</label>
+                        <input type="number" name="house-number" id="house-number" minlength="1" maxlength="300" placeholder="Number" required>
+                    </div>
+                    <div>
+                        <label for="postal-code">Postal Code</label>
+                        <input type="number" name="postal-code" id="postal-code" placeholder="5 digits" required>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <input list="city-option" type="text" name="city" id="city" placeholder="Berlin" required>
+                        <datalist id="city-option">
+                            <option value="Berlin"></option>
+                            <option value="Hamburg"></option>
+                            <option value="Leipzig"></option>
+                            <option value="Stuttgart"></option>
+                            <option value="Horb am Neckar"></option>
+                            <option value="Cottbus"></option>
+                            <option value="Tubingen"></option>
+                            <option value="Frankfurt"></option>
+                            <option value="Dusseldorf"></option>
+                            <option value="Dortmund"></option>
+                        </datalist>
+                </div>
+                <div>
+                    <label for="car-brand">Car brand</label>
+                    <select name="car-brand" id="car-brand" placeholder="Pick your car brand">
+                        <optgroup label="Germany">
+                            <option value="BMW">BMW</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                            <option value="Porsche">Porsche</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Audi">Audi</option>
+                        </optgroup>
+                        <optgroup label="Japan">
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="Mazda">Mazda</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Mitsubishi">Mitsubishi</option>
+                        </optgroup>
+                        <optgroup label="France">
+                            <option value="Renault">Renault</option>
+                            <option value="Peugeot">Peugeot</option>
+                            <option value="Citroen">Citroen</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="car-pictures">Upload car pictures</label>
+                    <input type="file" name="car-pictures" id="car-pictures" accept="image/jpeg" multiple>
+                </div>
+                <div>
+                    <label for="salary">Monthly salary</label>
+                    <input list="salary-range" type="number" name="salary" id="salary" placeholder="Choose a salary range">
+                    <datalist id="salary-range">
+                        <option value="0"></option>
+                        <option value="0-1000"></option>
+                        <option value="1000-3000"></option>
+                        <option value="3000-5000"></option>
+                        <option value="5000-7000"></option>
+                        <option value="7000-1000"></option>
+                        <option value="10000+"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="car-plates">Car plates</label>
+                    <input type="password" pattern="[A-Z]{1}[a-z]{1}[a-z]{1}[0-9]{6}"
+                        title="Must contain 3 letters: first uppercase, 2 lowercase and 6 numbers"
+                        id="car-plates" name="car-plates" placeholder="Aaa123456" required>
+                </div>
+                <div>
+                    <button type="submit">Insure</button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url(/img/et-wealth-dont-get-lured-by-discounted-offers-on-car-insurance-heres-why-you-need-to-be-cautious.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 2.5rem;
+}
+fieldset {
+  background-color: rgb(229, 85, 100);
+}
+form {
+  width: 30%;
+  margin: 1%;
+}
+input {
+  padding: 1rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+label {
+  display: inline-block;
+  width: 25rem;
+  text-align: right;
+  padding-right: 2rem;
+}
+button {
+  background-color: pink;
+  width: 20%;
+  padding: 0.5rem;
+  margin: 1rem;
+  margin-left: 43%;
+}
+select {
+  margin: 0;
+  width: 54%;
+  padding: 1rem;
+}
+legend {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+input[maxlength]:focus {
+  border: solid 5px black;
+  border-radius: 7px;
+}
+#car-brand {
+  margin-top: 4rem;
+}
+p {
+  margin-left: 16rem;
+  margin-top: 0;
+}
+input:invalid {
+  background-color: pink;
+}
+::placeholder {
+  color: rgb(46, 43, 43);
+  font-size: 2rem;
+  font-style: italic;
+}
