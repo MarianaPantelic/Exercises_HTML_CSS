@@ -1,3 +1,7 @@
+# Result:
+
+![Result](img/Car-Insurance-Exercise-Result.png)
+
 Add the following inputs to the form:
 
 - first name: required, max 30
@@ -29,4 +33,4 @@ Optional: more inputs
 5. invalid forms must have no red border or outline, but have a light orange background
 6. Assign a descriptive placeholder to text inputs and color the placeholder in dark grey italic
 
-![Result](img/Car-Insurance-Exercise-Result.png)
+
