@@ -1,0 +1,82 @@
+.grid-container {
+  display: grid;
+  box-sizing: border-box;
+  gap: 10px 10px;
+  margin: 60px 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(15, 40px);
+  grid-template-areas:
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 blue-1 blue-1 green-2 green-2 green-2 green-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 blue-1 blue-1 green-2 green-2 green-2 green-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 blue-1 blue-1 green-2 green-2 green-2 green-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 orange-1 orange-1 blue-2 orange-2 orange-2 orange-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 orange-1 orange-1 blue-2 orange-2 orange-2 orange-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 orange-1 orange-1 blue-2 orange-2 orange-2 orange-2"
+    "purple-1 purple-1 purple-1 purple-1 green-1 green-1 orange-1 orange-1 purple-2 purple-2 purple-2 purple-2"
+    "green-3 green-3 blue-3 blue-3 green-1 green-1 orange-1 orange-1 purple-2 purple-2 purple-2 purple-2"
+    "green-3 green-3 orange-3 orange-3 green-1 green-1 orange-1 orange-1 purple-2 purple-2 purple-2 purple-2"
+    "green-3 green-3 orange-3 orange-3 green-1 green-1 orange-1 orange-1 purple-2 purple-2 purple-2 purple-2"
+    "green-3 green-3 orange-3 orange-3 green-1 green-1 orange-1 orange-1 purple-2 purple-2 purple-2 purple-2"
+    "green-3 green-3 orange-3 orange-3 purple-3 purple-3 purple-3 purple-3 purple-2 purple-2 purple-2 purple-2"
+    "green-4 green-4 green-4 green-4 purple-3 purple-3 purple-3 purple-3 purple-2 purple-2 purple-2 purple-2"
+    "green-4 green-4 green-4 green-4 purple-3 purple-3 purple-3 purple-3 purple-2 purple-2 purple-2 purple-2"
+    "green-4 green-4 green-4 green-4 purple-3 purple-3 purple-3 purple-3 blue-4 blue-4 blue-4 blue-4";
+}
+.grid-container .grid-item {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.purple {
+  background-color: #8d43b3;
+}
+.orange {
+  background-color: #e74e33;
+}
+.blue {
+  background-color: #58aae8;
+}
+.green {
+  background-color: #2aa650;
+}
+.purple-1 {
+  grid-area: purple-1;
+}
+.green-1 {
+  grid-area: green-1;
+}
+.blue-1 {
+  grid-area: blue-1;
+}
+.green-2 {
+  grid-area: green-2;
+}
+.orange-1 {
+  grid-area: orange-1;
+}
+.blue-2 {
+  grid-area: blue-2;
+}
+.orange-2 {
+  grid-area: orange-2;
+}
+.purple-2 {
+  grid-area: purple-2;
+}
+.green-3 {
+  grid-area: green-3;
+}
+.blue-3 {
+  grid-area: blue-3;
+}
+.orange-3 {
+  grid-area: orange-3;
+}
+.purple-3 {
+  grid-area: purple-3;
+}
+.green-4 {
+  grid-area: green-4;
+}
+.blue-4 {
+  grid-area: blue-4;
+}
